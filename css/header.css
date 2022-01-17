@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+.header{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* place-content: center;
+    position: relative;
+    top: 0;
+    width: 100%; */
+    color: #696969;
+    /* max-height: 3em; */
+    min-height: 3em;
+  }
+.branding {
+  /* left: 0.45em;
+  position: absolute;
+  top: 0.4em; */
+  font-weight: 500;
+  color: black;
+  /* font-size: 3em;
+  font-family: 'Italianno', cursive; */
+}
+.logo {
+  max-width: 1.5em;
+}
+/* Small Responsive */
+@media screen and (max-width: 600px) {
+  /* .logo {
+    max-width: 1.5em;
+    height: auto; */
+    /* margin-left: 2em;} */
+}
+/* Medium Responsive */
+@media screen and (min-width: 601px) {
+/* .logo {
+  max-width: 1.5em; */
+  /* height: auto;
+  margin-left: 2em;
+  float: left;
+  margin-top: -3.75em;} */
+  /* .about.text{
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 8%;*/}
+}
+/* Large Responsive */
+@media screen and (min-width: 1080px) {
+}
+.header-grid-item{
+  display: grid;
+  flex-direction: column;
+  place-content: center;
+}
+/*
+.header-grid-item.3{
+  text-align: right;
+} */

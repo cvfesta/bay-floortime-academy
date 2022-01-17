@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 0%;
+  width: 100%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  float: right;
+  top: 0;
+  /* background-color: rgb(0,0,0); /* Black fallback color */
+  /* background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  background-color: #3bd8c3f2;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 2em; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 3em;
+  /* color: #818181;*/
+  color: #333;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  /* top: 20px;
+  right: 45px;
+  font-size: 60px; */
+  top: -0.35em;
+  right: 14.5%;
+  font-size: 4em;
+  /* top: -0.45em;
+right: 2.35em; */
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.topnav.icon{
+  /* float: right; */
+  /* color: white; */
+  /* position: absolute; */
+  /* top: 20px;
+  right: 45px;
+  font-size:30px; */
+  /* top: 1em; */
+  /* right: 1em; */
+  font-size: 1.5em;
+  cursor:pointer;
+}
+
+.fa.fa-bars{
+  color: #111;
+  /* padding: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: 1.35em; */
+  /* background-color: white;
+  background-color: rgba(255,255,255, 0.55);*/
+  padding: 0.25em;
+  border-radius: 0.25em;
+  /* opacity: 60%; */
+}
+
+.social.menu{
+  display: inline-block!important;
+  margin-left: -40px;
+}
+
+.social.menuli{
+  display: inline-block!important;
+  margin: 1em;
+}
+hr{
+  width: 20%;
+  margin-top: 3%;
+  height: 2px;
+  border-width:0;
+  background-color: #333;
+}

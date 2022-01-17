@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+  font-size: 4em;
+  /* line-height: 1; */
+  font-weight: 700;
+  letter-spacing: -0.009em;
+}
+
+h2{
+  text-align: center;
+  font-weight: 600;
+  font-style: normal;
+  /* line-height: 1.2em; */
+  max-width: 26em;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 1em; */
+}
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+/* default big image css above*/
+
+h5 {
+  font-weight: 100;
+}
+a{
+  text-decoration: none;
+  color: #06c;
+}
