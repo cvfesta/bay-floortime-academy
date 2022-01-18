@@ -1,9 +1,18 @@
 @charset "utf-8";
 /* CSS Document */
 @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+/* Variables */
+:root {
+  --background-color: #f5f5f7;
+  --main-txt-color: black;
+  --alt-main-txt-color: white;
+  --sub-txt-color: #86868b;
+  --secondary-color: #3bd8c3;
+  --card-background-color: white;
+}
 /* default settings */
 body, html {
-  background-color: #f5f5f7;
+  background-color: var(--background-color);
   text-align: center;
   height: 100%;
   margin: 0;

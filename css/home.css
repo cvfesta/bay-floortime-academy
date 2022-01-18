@@ -7,7 +7,7 @@
   letter-spacing: -0.009em;
 }
 .hero-caption {
-  color: #86868b;
+  color: var(--sub-txt-color);
   /* color: #707070; */
   font-size: 21px;
   /* line-height: 1.1904761905; */
@@ -76,7 +76,7 @@
 
 .bgimg-1-hero-headline {
   margin-bottom: 0.5em;
-  color: white;
+  color: var(--alt-main-txt-color);
 }
 
 .hero-caption {
@@ -113,11 +113,11 @@
   font-weight: 100;
 }
 .fa-calendar-alt, .fa-seedling, .fa-user-friends {
-  color: #3bd8c3;
+  color: var(--secondary-color);
   font-size: 2.5em;
 }
 .schedule-subtext {
-  color: #86868b;
+  color: var(--sub-txt-color);
   /* color: #707070; */
   font-weight: 300;
   margin-left: 20%;
@@ -143,7 +143,7 @@
   place-content: center;
   border-radius: 1em;
   padding: 1em;
-  background-color: white;
+  background-color: var(--card-background-color);
   box-shadow: 3px 4px 12px rgb(0 0 0 / 8%);
 }
 .schedule-headline{

@@ -13,57 +13,28 @@
   mixpanel.init('34b0b2e5a4bf295cff378e99aa7f115f', {debug: true});
   mixpanel.track('404');
   </script>
-<TITLE>You must be lost!</TITLE>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/style.css" type="text/css"/>
-<link rel="stylesheet" href="css/header.css" type="text/css"/>
-<link rel="stylesheet" href="css/menu.css" type="text/css"/>
-<link rel="stylesheet" href="css/home.css" type="text/css"/>
-<link rel="stylesheet" href="css/cards.css" type="text/css"/>
-<link rel="stylesheet" href="css/btn.css" type="text/css"/>
-<link rel="stylesheet" href="css/footer.css" type="text/css"/>
-<link rel="stylesheet" href="css/fonts.css" type="text/css"/>
-<link rel="icon" type="image/svg+xml" href="heart.svg" sizes="any">
-</HEAD>
-<BODY>
-  <style>
-  .container{margin-top: 25vh;}
-  h1{font-size: 2em;}
-  </style>
-<div class="container">
-<img src="img/heart.svg" class="logo404" alt="Aloha Fitness">
-<h1>Oops, this was embarrassing.</h1>
+  <title>You must be lost!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css" type="text/css"/>
+  <link rel="stylesheet" href="css/header.css" type="text/css"/>
+  <link rel="stylesheet" href="css/menu.css" type="text/css"/>
+  <link rel="stylesheet" href="css/home.css" type="text/css"/>
+  <link rel="stylesheet" href="css/cards.css" type="text/css"/>
+  <link rel="stylesheet" href="css/btn.css" type="text/css"/>
+  <link rel="stylesheet" href="css/footer.css" type="text/css"/>
+  <link rel="stylesheet" href="css/fonts.css" type="text/css"/>
+  <link rel="stylesheet" href="css/404.css" type="text/css"/>
+  <link rel="icon" type="image/svg+xml" href="heart.svg" sizes="any">
+  <script src="components/footer.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+  <div class="container">
+  <img src="img/heart.svg" class="logo404" alt="Aloha Fitness">
+  <h1 class="main-txt">Oh, that was embarrassing.</h1>
 
-<p class="hero-caption">The requested page was not found</p>
-<a href="https://aloha.fitness"><input type=button class="button mind-body" value='Go Home'></a>
-</div>
-<!-- footer -->
-<footer class="footer">
-  <!-- social links -->
-  <div class="grid-container-footer">
-    <div class="grid-item-footer">
-      <a target="_blank" href="https://www.facebook.com/Aloha-Fitness-104806311828090">
-        <i class="fab fa-facebook-f footer"></i>
-      </a>
-    </div>
-    <div class="grid-item-footer">
-      <a target="_blank" href="https://instagram.com/alohafitness2021">
-        <i class="fab fa-instagram footer"></i>
-      </a>
-    </div>
+  <p class="hero-caption">The page you requested could not be found</p>
+  <button type="button" name="button" class="button mind-body" onclick="window.location.href='https://aloha.fitness';">Go Home</button>
+  <!-- <a href="https://aloha.fitness"><input type=button class="button mind-body" value='Go Home'></a> -->
   </div>
-  <!-- copyright -->
-  <h5>&#169; Aloha Fitness.<span class="date" id="date"></span>
-    <!-- date script -->
-    <script>
-const d = new Date();
-let year = d.getFullYear();
-document.getElementById("date").innerHTML = year;
-</script>
-<!-- logo -->
-    <img src="img/heart.svg" class="footer icon">
-    <br><br>
-  </h5>
-</footer>
-</BODY>
-</html>
+  </body>
+  </html>
