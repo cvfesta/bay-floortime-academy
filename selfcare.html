@@ -28,65 +28,15 @@
 <link rel="stylesheet" href="css/footer.css" type="text/css"/>
 <link rel="stylesheet" href="css/fonts.css" type="text/css"/>
 <link rel="icon" type="image/svg+xml" href="heart.svg" sizes="any">
-<!-- <link rel=”mask-icon” href="logo.svg” color="white"> -->
+<script src="components/header.js" type="text/javascript" defer></script>
+<script src="components/footer.js" type="text/javascript" defer></script>
 </head>
 
-
 <body>
-  <header class="header">
-    <div class="header-grid-item 1">
-      <a href="index.html"><img src="img/heart.svg" class="logo" alt="Aloha Fitness"></a>
-    </div>
-    <div class="header-grid-item 2">
-      <a class="branding" href=index.html>Aloha Fitness</a>
-    </div>
-    <div class="header-grid-item 3">
-      <div class="topnav">
-        <!-- <a href=mindbody.html><input type=button class="button signup" value='Sign up'></a> -->
-        <!-- Use any element to open/show the overlay navigation menu -->
-        <!-- <span class="topnav icon" onclick="openNav()">&#9776;</span> -->
-        <span class="topnav icon" onclick="openNav()"><i class="fa fa-bars"></i></span>
-      </div>
-
-
-      <!-- The overlay -->
-      <div id="myNav" class="overlay">
-
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <a href="index.html">Home</a>
-          <a href="selfcare.html">Self-Care</a>
-          <a href="mindbody.html">Mind Body</a>
-          <hr>
-          <ul class="social menu">
-          <li class="social menuli"><a target="_blank" href="https://www.facebook.com/Aloha-Fitness-104806311828090" rel="noopener"><i class="menu fab fa-facebook-f"></i></a></li>
-          <li class="social menuli"><a target="_blank" href="https://instagram.com/alohafitness2021" rel="noopener"><i class="menu fab fa-instagram"></i></a></li>
-        </ul>
-          <!-- <a href="#">Contact</a> -->
-        </div>
-      </div>
-
-      <script>
-      /* Open */
-      function openNav() {
-        document.getElementById("myNav").style.height = "100%";
-      }
-
-      /* Close */
-      function closeNav() {
-        document.getElementById("myNav").style.height = "0%";
-      }
-      </script>
-    </div>
-</header>
+<!-- Header -->
+<header-component></header-component>
+<!-- hero -->
 <div class="bgimg-2">
-  <!-- <div class="caption">
-    <span class="border">Aloha</span><br>
-    <span class="border">Fitness</span>
-  </div> -->
 </div>
 <div class="hero-section">
   <h1 class="typography-hero-headline">Self-Care.</h1>
@@ -104,7 +54,6 @@
     <!-- <a href=mindbody.html>Learn more ></a> -->
   </div>
 </div>
-
 
 <!-- Schedule -->
 <i class="fas fa-calendar-alt"></i>
@@ -142,46 +91,14 @@ var x = setInterval(function() {
   }
 }, 1000);
 </script>
-
-
-
+<!-- Schedule grid -->
 <div class="grid-container-schedule-selfcare">
   <div class="grid-item-schedule">
     <p class="card-header">Saturday</p>
     <p class="card-subtext">8:30am</p>
   </div>
 </div>
-
-
-
 <!-- footer -->
-<footer class="footer">
-  <!-- social links -->
-  <div class="grid-container-footer">
-    <div class="grid-item-footer">
-      <a target="_blank" href="https://www.facebook.com/Aloha-Fitness-104806311828090" rel="noopener">
-        <i class="fab fa-facebook-f footer"></i>
-      </a>
-    </div>
-    <div class="grid-item-footer">
-      <a target="_blank" href="https://instagram.com/alohafitness2021" rel="noopener">
-        <i class="fab fa-instagram footer"></i>
-      </a>
-    </div>
-  </div>
-  <!-- copyright -->
-  <h5>&#169; Aloha Fitness.<span class="date" id="date"></span>
-    <!-- date script -->
-    <script>
-const d = new Date();
-let year = d.getFullYear();
-document.getElementById("date").innerHTML = year;
-</script>
-<!-- logo -->
-    <img src="img/heart.svg" class="footer icon">
-    <br><br>
-  </h5>
-</footer>
-
+<footer-component></footer-component>
 </body>
 </html>
