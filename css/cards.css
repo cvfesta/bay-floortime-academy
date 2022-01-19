@@ -34,6 +34,7 @@
   font-size: 1.25em;
   font-weight:600;
   margin-bottom: 0;
+  color: var(--hdr-txt-color);
 }
 .card-subtext {
   font-size: 1em;
