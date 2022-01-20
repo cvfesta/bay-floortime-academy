@@ -3,7 +3,7 @@
 .button{
   padding: .6em;
   border-radius: 0.4em;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: black;
   transition: box-shadow 300ms ease-in-out;
   border: none;
@@ -31,7 +31,7 @@
 .button:hover {
   -webkit-box-shadow: 14px 14px 30px -15px rgba(0, 0, 0, 0.7);
   box-shadow: 14px 14px 30px -15px rgba(0, 0, 0, 0.7);
-  background-color: var(--secondary-color-hover);
+  background-color: var(--secondary-color);
 }
 
 input[type=text], [type=email] {

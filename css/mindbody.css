@@ -19,12 +19,12 @@
   font-size: 2.5em;
 } */
 .fa-dumbbell {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: 2.5em;
 }
 .yogamat, .jumprope {
   height: 2.5em;
-  filter: invert(77%) sepia(55%) saturate(534%) hue-rotate(112deg) brightness(90%) contrast(87%);
+  filter: var(--primary-color-filter);
 }
 @media screen and (max-width: 899px) {
   .grid-container-need{

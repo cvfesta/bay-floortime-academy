@@ -7,7 +7,7 @@
   letter-spacing: -0.009em;
 }
 .hero-caption {
-  color: var(--sub-txt-color);
+  color: var(--secondary-txt-color);
   /* color: #707070; */
   font-size: 21px;
   /* line-height: 1.1904761905; */
@@ -76,7 +76,7 @@
 
 .bgimg-1-hero-headline {
   margin-bottom: 0.5em;
-  color: var(--alt-main-txt-color);
+  color: var(--alt-primary-txt-color);
 }
 
 .hero-caption {
@@ -113,11 +113,11 @@
   font-weight: 100;
 }
 .fa-calendar-alt, .fa-seedling, .fa-user-friends {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: 2.5em;
 }
 .schedule-subtext {
-  color: var(--sub-txt-color);
+  color: var(--secondary-txt-color);
   /* color: #707070; */
   font-weight: 300;
   margin-left: 20%;
