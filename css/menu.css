@@ -12,7 +12,7 @@
   top: 0;
   /* background-color: rgb(0,0,0); /* Black fallback color */
   /* background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
-  background-color: #3bd8c3f2;
+  background-color: var(--primary-color);
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
@@ -79,7 +79,7 @@ right: 2.35em; */
 }
 
 .fa.fa-bars{
-  color: #111;
+  color: var(--primary-txt-color);
   /* padding: 1em;
   padding-left: 0.5em;
   padding-right: 0.5em;

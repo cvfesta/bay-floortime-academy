@@ -7,7 +7,7 @@
   }
 .branding {
   font-weight: 500;
-  color: var(--main-txt-color);
+  color: var(--primary-txt-color);
 }
 .logo {
   max-width: 1.5em;

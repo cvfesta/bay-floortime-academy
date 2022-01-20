@@ -34,11 +34,12 @@
   font-size: 1.25em;
   font-weight:600;
   margin-bottom: 0;
+  color: var(--primary-txt-color);
 }
 .card-subtext {
   font-size: 1em;
   font-weight:300;
-  color: var(--sub-txt-color);
+  color: var(--secondary-txt-color);
   margin-top: 0.5em;
 }
 
