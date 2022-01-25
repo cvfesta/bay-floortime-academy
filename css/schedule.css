@@ -24,7 +24,7 @@
   /* box-shadow: 3px 4px 12px rgb(0 0 0 / 8%); */
   box-shadow: var(--box-shadow);
 }
-.card-header.startsOnDate {
+.card-headline.startsOnDate {
   margin: 0;
 }
 .schedule-headline{

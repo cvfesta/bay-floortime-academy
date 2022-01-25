@@ -37,16 +37,40 @@ a{
   text-decoration: none;
   color: #06c;
 }
-.card-header{
+.card-headline {
   font-size: 1.25em;
   /* font-weight:600; */
   font-weight: var(--font-weight);
   margin-bottom: 0;
   color: var(--primary-txt-color);
 }
+.card-headline.offer, .card-headline.need{
+  margin-top: 0.25em;
+}
 .card-subtext {
   font-size: 1em;
   font-weight:300;
   color: var(--secondary-txt-color);
   margin-top: 0.5em;
+}
+.hero-headline{
+  margin-bottom: 0;
+}
+.hero-headline.home{
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 0;
+  letter-spacing: -0.009em;
+}
+.hero-caption {
+  color: var(--secondary-txt-color);
+  /* font-size: 1.25em; */
+  font-size: 21px;
+  font-weight: 400;
+  /* margin-left: 20%;
+  margin-right: 20%; */
+}
+.offer-headline{
+  /* margin-bottom: 0.5em; */
+  font-weight: 100;
 }

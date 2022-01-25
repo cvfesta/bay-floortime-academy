@@ -1,5 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
+.hero-image {
+  background-image: url("../img/mindbody-banner.jpg");
+  /* height: 50%;
+  position: initial;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
 .grid-container-need{
   display: grid;
   grid-template-columns: auto auto auto;

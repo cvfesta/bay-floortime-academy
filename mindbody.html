@@ -21,7 +21,8 @@
 <link rel="stylesheet" href="css/style.css" type="text/css"/>
 <link rel="stylesheet" href="css/header.css" type="text/css"/>
 <link rel="stylesheet" href="css/menu.css" type="text/css"/>
-<link rel="stylesheet" href="css/home.css" type="text/css"/>
+<!-- <link rel="stylesheet" href="css/home.css" type="text/css"/> -->
+<link rel="stylesheet" href="css/template.css" type="text/css"/>
 <link rel="stylesheet" href="css/mindbody.css" type="text/css"/>
 <link rel="stylesheet" href="css/schedule.css" type="text/css"/>
 <link rel="stylesheet" href="css/cards.css" type="text/css"/>
@@ -36,33 +37,30 @@
 <body>
   <!-- Header -->
   <header-component></header-component>
-<!-- hero -->
-<div class="bgimg-3">
-</div>
-<div class="hero-section">
-  <h1 class="typography-hero-headline">Mind Body.</h1>
-</div>
-<div class="hero-caption">
-  <p>Mind Body is a science-based nutrition program designed for busy moms by a mom to help women to reach a healthy life style. The program is designed to create healthy habits that will help you lose weight, stay fit, feel energized, and connect to other moms from home.</p>
-  <p>
-  The live classes are HIIT (Hight Intensive Interval Training) composed of restorative cardio, strength training, and core restoration workout designed for moms of all levels. It provides a complete full body workout and gives you the energy and motivation you need to start a healthy lifestyle.</p>
+  <!-- hero image-->
+  <div class="hero-image"></div>
+  <!-- hero statement-->
+<div class="hero">
+  <h1 class="hero-headline">Mind Body.</h1>
+  <p class="hero-caption">Mind Body is a science-based nutrition program designed for busy moms by a mom to help women to reach a healthy life style. The program is designed to create healthy habits that will help you lose weight, stay fit, feel energized, and connect to other moms from home.</p>
+  <p class="hero-caption">The live classes are HIIT (Hight Intensive Interval Training) composed of restorative cardio, strength training, and core restoration workout designed for moms of all levels. It provides a complete full body workout and gives you the energy and motivation you need to start a healthy lifestyle.</p>
 </div>
 <!-- what you need -->
 <h2 class="offer-headline">What you'll need:</h2>
 <div class="grid-container-need">
   <div class="grid-item-need">
     <i class="fas fa-dumbbell"></i>
-    <p class="card-header">Dumbbells</p>
+    <p class="card-headline need">Dumbbells</p>
     <p class="card-subtext">Light weight dumbbells for strength training.</p>
   </div>
   <div class="grid-item-need">
     <img class="yogamat" src="img/yogamat.svg">
-    <p class="card-header">Yoga Mat</p>
+    <p class="card-headline need">Yoga Mat</p>
     <p class="card-subtext">A comfortable yoga mat for core training.</p>
   </div>
   <div class="grid-item-need">
     <img class="jumprope" src="img/jumprope.svg">
-    <p class="card-header">Jump Rope</p>
+    <p class="card-headline need">Jump Rope</p>
     <p class="card-subtext">A jump rope for cardio workouts.</p>
   </div>
 </div>
@@ -70,14 +68,14 @@
 <div class="grid-container-card">
   <div class="grid-item">
     <img src="img/mindbody-card1.jpg" class="card-image" alt="">
-    <p class="card-header">Newbie</p>
+    <p class="card-headline">Newbie</p>
     <p class="card-subtext">For new members, we offer 5 weeks of the Mind Body program for $49 per week</p>
     <a id="embedded-checkout-modal-checkout-button" target="_blank" data-url="https://square.link/u/SU94i8wY?src=embd" href="https://square.link/u/SU94i8wY?src=embed" rel="noopener"><input type=button class="button self-care" value='Sign up'></a>
     <!-- <a href=mindbody.html>Learn more ></a> -->
   </div>
   <div class="grid-item">
     <img src="img/mindbody-card2.jpg" class="card-image" alt="">
-    <p class="card-header">Veteran</p>
+    <p class="card-headline">Veteran</p>
     <p class="card-subtext">For returning members, we offer 5 weeks of the Mind Body program for $39 per week</p>
     <a id="embedded-checkout-modal-checkout-button" target="_blank" data-url="https://square.link/u/CqS8mPdg?src=embd" href="https://square.link/u/CqS8mPdg?src=embed" rel="noopener"><input type=button class="button mind-body" value='Sign up'></a>
     <!-- <a href=mindbody.html>Learn more ></a> -->
@@ -90,7 +88,7 @@
 <p class="schedule-subtext">Our next session starts on</p>
 <div class="grid-container-startsOnDate">
   <div class="grid-item-startsOnDate">
-    <p class="card-header startsOnDate">February 21, 2022</p>
+    <p class="card-headline startsOnDate">February 21, 2022</p>
   </div>
 </div>
 <!-- calendar schedule -->
@@ -99,15 +97,15 @@
 <p class="schedule-subtext">Morning Schedule</p>
 <div class="grid-container-schedule">
   <div class="grid-item-schedule">
-    <p class="card-header">Tuesday</p>
+    <p class="card-headline">Tuesday</p>
     <p class="card-subtext">5:30am</p>
   </div>
   <div class="grid-item-schedule">
-    <p class="card-header">Thursday</p>
+    <p class="card-headline">Thursday</p>
     <p class="card-subtext">5:30am</p>
   </div>
   <div class="grid-item-schedule">
-    <p class="card-header">Saturday</p>
+    <p class="card-headline">Saturday</p>
     <p class="card-subtext">8:30am</p>
   </div>
 </div>
@@ -115,15 +113,15 @@
 <p class="schedule-subtext">Evening Schedule</p>
 <div class="grid-container-schedule">
   <div class="grid-item-schedule">
-    <p class="card-header">Monday</p>
+    <p class="card-headline">Monday</p>
     <p class="card-subtext">6:00pm</p>
   </div>
   <div class="grid-item-schedule">
-    <p class="card-header">Wednesday</p>
+    <p class="card-headline">Wednesday</p>
     <p class="card-subtext">6:00pm</p>
   </div>
   <div class="grid-item-schedule">
-    <p class="card-header">Saturday</p>
+    <p class="card-headline">Saturday</p>
     <p class="card-subtext">8:30am</p>
   </div>
 </div>

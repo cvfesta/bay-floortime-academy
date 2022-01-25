@@ -2,12 +2,6 @@
 /* CSS Document */
 .hero-image {
   background-image: url("../img/banner.jpg");
-  height: 50%;
-  /* was shared w/ other pages */
-  position: initial;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .overlay-hero-image{
   opacity: 1;
@@ -21,93 +15,6 @@
   margin-bottom: 0.5em;
   color: var(--alt-primary-txt-color);
 }
-.hero-headline{
-  font-size: 3em;
-  font-weight: 600;
-  margin-bottom: 0;
-  letter-spacing: -0.009em;
-}
-.hero-caption {
-  color: var(--secondary-txt-color);
-  /* font-size: 1.25em; */
-  font-size: 21px;
-  font-weight: 400;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-.offer-headline{
-  margin-bottom: 0.5em;
-  font-weight: 100;
-}
-
-
-
-
-
-
-
-
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-mb {
-  position: initial;
-  /* opacity: 0.65; */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-
-.bgimg-2 {
-  background-image: url("../img/selfcare-banner.jpg");
-  height: 50%;
-  /* margin-top: 5em; */
-}
-
-.bgimg-3 {
-  background-image: url("../img/mindbody-banner.jpg");
-  height: 50%;
-  /* margin-top: 5em; */
-}
-
-.bgimg-mb {
-  background-image: url("../img/banner-mb.jpg");
-  height: 50%;
-  margin-top: 5.5em;
-  /* box-shadow: 14px 14px 30px -15px rgb(0 0 0 / 70%) */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.caption {
-  position: absolute;
-  left: 0;
-  top: 45%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
-
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-  /* font-family: 'Italianno', cursive; */
-}
-
-.typography-hero-headline {
-  margin-bottom: 0;
-}
-
-
-
-/* .hero-caption { */
-  /* margin-top: 15%; */
-  /* margin-left: 20%;
-  margin-right: 20%; */
-  /* margin-bottom: 6%; */
-/* } */
-/* image overlay */
 
 .grid-container-offer{
   display: grid;
@@ -123,33 +30,7 @@
   flex-direction: column;
   /* place-content: baseline; */
 }
-
-.fa-calendar-alt, .fa-seedling, .fa-user-friends {
-  color: var(--primary-color);
-  font-size: 2.5em;
-}
 @media screen and (max-width: 899px) {
   .grid-container-offer{
   grid-template-columns: auto;}
-}
-
-
-
-  /* Small Responsive */
-  @media screen and (max-width: 600px) {
-  .hero-caption {
-    /* margin-top: 15%; */
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 6%;
-  }
-}
-/* Large Responsive */
-@media screen and (min-width: 1080px) {
-  .hero-caption {
-    /* margin-top: 8%; */
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 3%;
-  }
 }
