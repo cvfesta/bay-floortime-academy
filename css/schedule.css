@@ -21,7 +21,8 @@
   border-radius: 1em;
   padding: 1em;
   background-color: var(--card-background-color);
-  box-shadow: 3px 4px 12px rgb(0 0 0 / 8%);
+  /* box-shadow: 3px 4px 12px rgb(0 0 0 / 8%); */
+  box-shadow: var(--box-shadow);
 }
 .card-header.startsOnDate {
   margin: 0;

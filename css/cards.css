@@ -17,7 +17,8 @@
   text-align: center;
   background-color: var(--card-background-color);
   border-radius: 1em;
-  box-shadow: 3px 4px 12px rgb(0 0 0 / 8%);
+  /* box-shadow: 3px 4px 12px rgb(0 0 0 / 8%); */
+  box-shadow: var(--box-shadow);
   padding: 0.5em;
   display: flex;
   flex-direction: column;
@@ -30,22 +31,9 @@
   max-width: 22em;
   border-radius: 0.5em;
 }
-.card-header{
-  font-size: 1.25em;
-  font-weight:600;
-  margin-bottom: 0;
-  color: var(--primary-txt-color);
-}
-.card-subtext {
-  font-size: 1em;
-  font-weight:300;
-  color: var(--secondary-txt-color);
-  margin-top: 0.5em;
-}
-
 .grid-container.single {
-  display: none;}
-
+  display: none;
+}
 @media screen and (max-width: 899px) {
   .grid-container {
     display: none;}

@@ -3,12 +3,7 @@
 @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 /* Variables */
 /* :root {
-  --background-color: #f5f5f7;
-  --main-txt-color: black;
-  --alt-main-txt-color: white;
-  --sub-txt-color: #86868b;
-  --secondary-color: #3bd8c3;
-  --card-background-color: white;
+  --box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 } */
 /* default settings */
 body, html {
@@ -30,6 +25,8 @@ body, html {
    --alt-primary-txt-color: #f5f5f5;
    --card-background-color: white;
    --primary-color-filter: invert(77%) sepia(55%) saturate(534%) hue-rotate(112deg) brightness(90%) contrast(87%);
+   --box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   --font-weight: 600;
  }
 }
 /* Dark mode */
@@ -43,5 +40,7 @@ body, html {
      --alt-primary-txt-color: #e1e1e1;
      --card-background-color: rgb(255 255 255 / 10%);
      --primary-color-filter: invert(57%) sepia(17%) saturate(1445%) hue-rotate(223deg) brightness(103%) contrast(98%);
+     --box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+     --font-weight: 500;
  }
 }
