@@ -5,7 +5,10 @@ h1{
   /* line-height: 1; */
   font-weight: 700;
   letter-spacing: -0.009em;
-  color: var(--primary-txt-color);
+  /* color: var(--primary-txt-color); */
+  background: var(--gradient-txt-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2{

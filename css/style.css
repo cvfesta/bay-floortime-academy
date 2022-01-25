@@ -27,20 +27,22 @@ body, html {
    --primary-color-filter: invert(77%) sepia(55%) saturate(534%) hue-rotate(112deg) brightness(90%) contrast(87%);
    --box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
    --font-weight: 600;
+   --gradient-txt-color: -webkit-linear-gradient(90deg, #3BD8C3, #A167E0, #FF4F8D)
  }
 }
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
  :root {
-     --background-color: #22252A;
-     --primary-color: #bb86fc;
-     --secondary-color: #03dac5;
-     --primary-txt-color: #e1e1e1;
-     --secondary-txt-color: #9e9e9e;
-     --alt-primary-txt-color: #e1e1e1;
-     --card-background-color: rgb(255 255 255 / 10%);
-     --primary-color-filter: invert(57%) sepia(17%) saturate(1445%) hue-rotate(223deg) brightness(103%) contrast(98%);
-     --box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-     --font-weight: 500;
+   --background-color: #22252A;
+   --primary-color: #bb86fc;
+   --secondary-color: #03dac5;
+   --primary-txt-color: #e1e1e1;
+   --secondary-txt-color: #9e9e9e;
+   --alt-primary-txt-color: #e1e1e1;
+   --card-background-color: rgb(255 255 255 / 10%);
+   --primary-color-filter: invert(57%) sepia(17%) saturate(1445%) hue-rotate(223deg) brightness(103%) contrast(98%);
+   --box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+   --font-weight: 500;
+   --gradient-txt-color: -webkit-linear-gradient(-90deg, #3bf0e4 0%, #bca1f7 100%);
  }
 }
