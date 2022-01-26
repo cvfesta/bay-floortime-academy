@@ -23,18 +23,11 @@
   box-shadow: 0 0 0 0 var(--primary-color), inset 0 0 200px 28px var(--primary-color);
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
-.btn-one:hover {
+.btn-one:hover, .btn-one:active {
   box-shadow: 0 0 40px 0 var(--primary-color), inset 0 0 25px 0 var(--primary-color);
   color: var(--primary-color);
 }
-.btn-one:active {
-  box-shadow: 0 0 40px 0 var(--primary-color), inset 0 0 25px 0 var(--primary-color);
-  color: var(--primary-color);
-}
-.btn-one:focus {
-  box-shadow: 0 0 40px 0 var(--primary-color), inset 0 0 25px 0 var(--primary-color);
-  color: var(--primary-color);
-}
+
 /* .btn-one{
   font-size: 1.25em;
   width: 83%;
