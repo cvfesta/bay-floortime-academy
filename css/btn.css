@@ -23,7 +23,7 @@
   box-shadow: 0 0 0 0 var(--primary-color), inset 0 0 200px 28px var(--primary-color);
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
-.btn-one:hover, .btn-one:active {
+.btn-one:hover, .btn-one:active, .btn-one:focus, .btn-one:target {
   box-shadow: 0 0 40px 0 var(--primary-color), inset 0 0 25px 0 var(--primary-color);
   color: var(--primary-color);
 }
