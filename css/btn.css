@@ -6,7 +6,7 @@
   border-radius: 0.4em;
   /* background-color: var(--primary-color); */
   background: none;
-  /* color: black; */
+  color: var(--primary-txt-color);
   /* transition: box-shadow 300ms ease-in-out; */
   /* border: none; */
   border: 0.175em solid #ececec;
@@ -27,7 +27,10 @@
   box-shadow: 0 0 40px 0 var(--primary-color), inset 0 0 25px 0 var(--primary-color);
   color: var(--primary-color);
 }
-
+.btn-one:active {
+  box-shadow: 0 0 40px 0 var(--primary-color), inset 0 0 25px 0 var(--primary-color);
+  color: var(--primary-color);
+}
 /* .btn-one{
   font-size: 1.25em;
   width: 83%;
