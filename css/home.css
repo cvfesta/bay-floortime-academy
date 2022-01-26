@@ -11,11 +11,6 @@
   display: grid;
   place-content: center;
 }
-.hero-image-headline {
-  margin-bottom: 0.5em;
-  color: var(--alt-primary-txt-color);
-}
-
 .grid-container-offer{
   display: grid;
   grid-template-columns: auto auto auto;

@@ -37,6 +37,10 @@ a{
   text-decoration: none;
   color: #06c;
 }
+.hero-image-headline {
+  margin-bottom: 0.5em;
+  /* color: var(--alt-primary-txt-color); */
+}
 .card-headline {
   font-size: 1.25em;
   /* font-weight:600; */
