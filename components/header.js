@@ -24,8 +24,9 @@ class Header extends HTMLElement {
           <!-- Overlay content -->
           <div class="overlay-content">
             <a href="index.html">Home</a>
-            <a href="selfcare.html">Self-Care</a>
             <a href="mindbody.html">Mind Body</a>
+            <a href="selfcare.html">Self-Care</a>
+            <a href="contact.html">Contact</a>
             <hr>
             <ul class="social menu">
             <li class="social menuli"><a target="_blank" href="https://www.facebook.com/Aloha-Fitness-104806311828090" rel="noopener"><i class="menu fab fa-facebook-f"></i></a></li>
