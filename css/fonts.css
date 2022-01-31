@@ -37,6 +37,10 @@ a{
   text-decoration: none;
   color: #06c;
 }
+p{
+  font-weight: var(--fw-body);
+}
+
 .hero-image-headline {
   margin-bottom: 0.5em;
   /* color: var(--alt-primary-txt-color); */
