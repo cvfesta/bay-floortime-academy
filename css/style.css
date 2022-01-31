@@ -1,10 +1,18 @@
 @charset "utf-8";
 /* CSS Document */
-@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+/* @import url('https://fonts.cdnfonts.com/css/sf-pro-display'); */
+@import url('https://v1.fontapi.ir/css/SFProDisplay');
 /* Variables */
-/* :root {
-  --box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-} */
+:root {
+  --fs-300: 300;
+  --fs-400: 400;
+  --fs-500: 500;
+  --fs-600: 600;
+  --fw-body: 300;
+  --fw-bold: 800;
+  --fw-title: 400;
+  --fw-number: 800;
+}
 /* default settings */
 body, html {
   background-color: var(--background-color);
