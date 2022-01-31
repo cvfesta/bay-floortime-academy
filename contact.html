@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Aloha Fitness</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Aloha Fitness is a virtual community created for moms, by a mom. We offer a science-based nutrition program and high-intensity interval (HIIT) workouts.">
+    <meta name="keywords" content="science-based nutrition, nutrition program, diet, lose weight, get healthy, group fitness, virtual workout, HIIT, workout, high intensity interval training, moms workout, workout from home">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/header.css" type="text/css"/>
+    <link rel="stylesheet" href="css/menu.css" type="text/css"/>
+    <link rel="stylesheet" href="css/contact.css" type="text/css"/>
+    <link rel="stylesheet" href="css/template.css" type="text/css"/>
+    <link rel="stylesheet" href="css/schedule.css" type="text/css"/>
+    <link rel="stylesheet" href="css/cards.css" type="text/css"/>
+    <link rel="stylesheet" href="css/btn.css" type="text/css"/>
+    <link rel="stylesheet" href="css/footer.css" type="text/css"/>
+    <link rel="stylesheet" href="css/fonts.css" type="text/css"/>
+    <link rel="icon" type="image/svg+xml" href="heart.svg" sizes="any"/>
+    <link rel="apple-touch-icon" href="heart.png"/>
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header-component></header-component>
+    <!-- hero image-->
+    <div class="hero-image"></div>
+    <!-- hero statement-->
+    <h1>Contact.</h1>
+    <p class="hero-caption">While we're good with messages in a bottle, there are faster ways for us to get in touch and answer your questions.</p>
+    <!-- form -->
+    <form name="contact" class="contact" method="POST" data-netlify="true">
+      <div class="grid-container-contact">
+        <input type="text" class="grid-item-contact name" name="FirstName" required="required" placeholder="First Name"/>
+        <input type="text" class="grid-item-contact name" name="LastName" required="required" placeholder="Last Name"/>
+        <input type="email" class="grid-item-contact email" name="email" required="required" placeholder="Email"/>
+      </div>
+      <span class="parent">
+      <textarea name="message" class="grid-item-contact message" required="required" spellcheck="true" placeholder="How can we help you?"></textarea>
+      </span>
+      <button class="button btn-one" type="submit">Send</button>
+    </form>
+    <!-- footer -->
+    <footer-component></footer-component>
+  </body>
+</html>
