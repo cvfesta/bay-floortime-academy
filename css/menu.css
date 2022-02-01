@@ -19,11 +19,31 @@
 
 /* Position the content inside the overlay */
 .overlay-content {
-  position: relative;
-  top: 25%; /* 25% from the top */
-  width: 100%; /* 100% width */
-  text-align: center; /* Centered text/links */
-  margin-top: 2em; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  /* position: relative; */
+  /* top: 25%; */
+  /* width: 100%; */
+  /* text-align: center; */
+  /* margin-top: 2em; */
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  align-content: center;
+  justify-content: center;
+  height: fit-content;
+  /* position: relative; */
+  /* top: 25%; */
+   /* 25% from the top */
+  /* width: 100%; */
+   /* 100% width */
+  /* text-align: center; */
+   /* Centered text/links */
+  /* margin-top: 2em; */
+   /* 30px top margin to avoid conflict with the close button on smaller screens */
+  /* width: fit-content; */
+  /* margin: auto; */
 }
 
 /* The navigation links inside the overlay */
@@ -92,18 +112,29 @@ right: 2.35em; */
 }
 
 .social.menu{
-  display: inline-block!important;
-  margin-left: -40px;
+  /* display: inline-block!important;
+  margin-left: -40px; */
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  justify-content: space-evenly; */
+  flex-direction: row;
+  display: flex;
+  gap: 2rem;
 }
-
+/*
 .social.menuli{
   display: inline-block!important;
   margin: 1em;
-}
+} */
 hr{
-  width: 20%;
-  margin-top: 3%;
+  /* width: 20%; */
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   height: 2px;
   border-width:0;
   background-color: #333;
+  border-radius: 1px;
 }
