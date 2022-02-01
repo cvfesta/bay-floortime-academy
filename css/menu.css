@@ -33,6 +33,7 @@
   align-content: center;
   justify-content: center;
   height: fit-content;
+  gap: 0.5rem;
   /* position: relative; */
   /* top: 25%; */
    /* 25% from the top */
@@ -48,12 +49,13 @@
 
 /* The navigation links inside the overlay */
 .overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 3em;
+  /* padding: 8px;
+  text-decoration: none; */
+  font-size: 3rem;
   /* color: #818181;*/
   color: #333;
-  display: block; /* Display block instead of inline */
+  /* display: block; */
+   /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
 }
 
@@ -131,8 +133,8 @@ right: 2.35em; */
 hr{
   /* width: 20%; */
   width: 100%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  /* margin-top: 2rem;
+  margin-bottom: 2rem; */
   height: 2px;
   border-width:0;
   background-color: #333;
