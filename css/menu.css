@@ -140,3 +140,7 @@ hr{
   background-color: #333;
   border-radius: 1px;
 }
+/* Future enhancement  */
+/* i.fa.fa-bars:hover, a.branding:hover {
+    color: var(--primary-color);
+} */
