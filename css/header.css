@@ -3,14 +3,14 @@
 .header{
   display: grid;
   grid-template-columns: auto auto auto;
-  min-height: 3em;
+  min-height: 3rem;
   }
 .branding {
-  font-weight: 500;
+  font-weight: var(--fw-body);
   color: var(--primary-txt-color);
 }
 .logo {
-  max-width: 1.5em;
+  max-width: 1.5rem;
 }
 .header-grid-item{
   display: grid;
