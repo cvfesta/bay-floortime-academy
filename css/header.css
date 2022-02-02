@@ -1,10 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
-.header{
+/* .header{
   display: grid;
   grid-template-columns: auto auto auto;
   min-height: 3rem;
-  }
+} */
+.header {
+  display: flex;
+  min-height: 3rem;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  align-items: center;
+}
 .branding {
   font-weight: var(--fw-body);
   color: var(--primary-txt-color);
@@ -12,8 +19,8 @@
 .logo {
   max-width: 1.5rem;
 }
-.header-grid-item{
+/* .header-grid-item{
   display: grid;
   flex-direction: column;
   place-content: center;
-}
+} */
