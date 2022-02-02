@@ -32,11 +32,8 @@ class Header extends HTMLElement {
               <a target="_blank" href="https://www.facebook.com/Aloha-Fitness-104806311828090" rel="noopener"><i class="menu fab fa-facebook-f"></i></a>
               <a target="_blank" href="https://instagram.com/alohafitness2021" rel="noopener"><i class="menu fab fa-instagram"></i></a>
           </span>
-            <!-- <a href="#">Contact</a> -->
           </div>
         </div>
-        <!-- Overlay script -->
-
       </div>
     </header>
     `;
@@ -45,10 +42,11 @@ class Header extends HTMLElement {
 
 customElements.define('header-component', Header);
 
+// Overlay script
 // Menu Call to Action
 /* Open */
 function openNav() {
-  document.getElementById("myNav").style.height = "100%";}
+  document.getElementById("myNav").style.height = "100vh";}
 /* Close */
 function closeNav() {
-  document.getElementById("myNav").style.height = "0%";}
+  document.getElementById("myNav").style.height = "0vh";}

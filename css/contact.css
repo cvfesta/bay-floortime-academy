@@ -8,16 +8,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-/* input[type=text], [type=email], textarea {
-  background-color: var(--card-background-color);
-  box-shadow: var(--box-shadow);
-  border-radius: 1rem;
-    padding: 1rem;
-  border: none;
-  font-size: 1rem;
-  flex: 1;
-  color: var(--primary-txt-color)
-} */
 .grid-container-contact{
   display: flex;
   margin-bottom: 2rem;
@@ -50,7 +40,6 @@ button{
   -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
   border-radius: 1rem;
-  /* padding: .75rem; */
   padding: 1rem;
   border: none;
   font-size: 1rem;
