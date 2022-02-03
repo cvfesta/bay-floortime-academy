@@ -19,4 +19,4 @@
 
 User-agent: *
 Allow: /
-Sitemap: https://alohafitness.net/sitemap.xml
+Sitemap: https://www.alohafitness.net/sitemap.xml
