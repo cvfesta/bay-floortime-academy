@@ -1,11 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
-.hero-image {
+/* .hero-image {
   height: 50%;
   position: initial;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+} */
+.hero-image {
+    height: 50%;
+    position: initial;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .hero {
   margin-left: 20%;
@@ -30,7 +41,9 @@
     max-width: 45em;
   }
 }
-
+h1.hero-text {
+    margin: 0;
+}
 
 
 
