@@ -6,11 +6,12 @@ h1{
   font-weight: 700;
   letter-spacing: -0.009em;
   /* color: var(--primary-txt-color); */
+}
+h1.gradient {
   background: var(--gradient-txt-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 h2{
   text-align: center;
   font-weight: 600;
@@ -72,8 +73,8 @@ p{
 }
 .hero-caption {
   color: var(--secondary-txt-color);
-  /* font-size: 1.25em; */
-  font-size: 21px;
+  font-size: 1.25em;
+  /* font-size: 21px; */
   font-weight: 400;
   /* margin-left: 20%;
   margin-right: 20%; */
@@ -81,4 +82,7 @@ p{
 .offer-headline{
   /* margin-bottom: 0.5em; */
   font-weight: 100;
+}
+h1, h2, h3 {
+  line-height: 1.1;
 }

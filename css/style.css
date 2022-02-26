@@ -21,6 +21,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: 'SF Pro Display', sans-serif;
+  line-height: 1.4;
 }
 /* Light mode */
 @media (prefers-color-scheme: light) {
@@ -35,7 +36,7 @@ body, html {
    --primary-color-filter: invert(77%) sepia(55%) saturate(534%) hue-rotate(112deg) brightness(90%) contrast(87%);
    --box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
    --font-weight: 600;
-   --gradient-txt-color: -webkit-linear-gradient(90deg, #3BD8C3, #A167E0, #FF4F8D)
+   --gradient-txt-color: -webkit-linear-gradient(90deg, #3BD8C3, #A167E0, #FF4F8D);
  }
 }
 /* Dark mode */

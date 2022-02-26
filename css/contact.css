@@ -1,12 +1,27 @@
 @charset "utf-8";
 /* CSS Document */
 .hero-image {
-  background-image: url("../img/contact.jpeg");
+  background-image: url("../img/contact.webp");
+}
+.overlay-hero-image{
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(23,23,23,0.35);
+  display: grid;
+  place-content: center;
 }
 .contact, .hero-caption {
-  max-width: 80vw;
+  /* max-width: 40rem; */
+  width: min(80vw, 40rem);
   margin-left: auto;
   margin-right: auto;
+}
+h1.hero-text, .hero-caption {
+color: var(--alt-primary-txt-color) !important;
+}
+.contact {
+  margin-top: 2rem;
 }
 .grid-container-contact{
   display: flex;
