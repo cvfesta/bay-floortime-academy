@@ -10,7 +10,7 @@ class Footer extends HTMLElement {
       <!-- social links -->
       <div class="grid-container-footer">
         <div class="grid-item-footer">
-          <a target="_blank" href="https://www.facebook.com/Aloha-Fitness-104806311828090" rel="noopener">
+          <a target="_blank" href="https://www.facebook.com/Aloha-Fitness-101473895737487/" rel="noopener">
             <i class="fab fa-facebook-f footer"></i>
           </a>
         </div>
