@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  <!-- mixpanel -->
+  <script type="text/javascript">
+  (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+  for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+  MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
+
+  // Enabling the debug mode flag is useful during implementation,
+  // but it's recommended you remove it for production
+  mixpanel.init('34b0b2e5a4bf295cff378e99aa7f115f', {debug: false});
+  mixpanel.track('Nutrition');
+  </script>
+<title>Aloha Fitness - Nutrition program teaches you how to use food to lose weight and to keep it off</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="At Aloha Fitness, we support fitness for moms. We focus on your mind and body, improving your overall health, and well being. The classes include high-intensity interval workouts (HIIT) designed to challenge, empower, and recharge you.">
+<meta name="keywords" content="Nutrition program, Self-Care, Self Care, lose weight, get healthy, group fitness, virtual workout, HIIT, workout, high intensity interval training, moms workout, workout from home">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
+<link rel="stylesheet" href="css/header.css" type="text/css"/>
+<link rel="stylesheet" href="css/menu.css" type="text/css"/>
+<!-- <link rel="stylesheet" href="css/home.css" type="text/css"/> -->
+<link rel="stylesheet" href="css/template.css" type="text/css"/>
+<link rel="stylesheet" href="css/nutrition.css" type="text/css"/>
+<!-- <link rel="stylesheet" href="css/schedule.css" type="text/css"/> -->
+<link rel="stylesheet" href="css/cards.css" type="text/css"/>
+<link rel="stylesheet" href="css/btn.css" type="text/css"/>
+<link rel="stylesheet" href="css/footer.css" type="text/css"/>
+<link rel="stylesheet" href="css/fonts.css" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="heart.svg" sizes="any">
+<script src="components/header.js" type="text/javascript" defer></script>
+<script src="components/footer.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+<!-- Header -->
+<header-component></header-component>
+<!-- hero image-->
+<div class="hero-image"></div>
+<div class="hero">
+  <h1 class="hero-headline gradient">Nutrition.</h1>
+  <p class="doneright">Done Right</p>
+  <p class="hero-caption">The nutrition program is different than any diet out there. It teaches you how to lose weight and to keep it off by focusing on eating whole, real foods while cutting back on processed foods. The program is designed to help free your body from bad cravings, boost your metabolism, and increase your energy & your mood.</p>
+</div>
+<!-- what we offer grid -->
+<!-- <h2 class="offer-headline home">Our program focuses on</h2> -->
+<div class="grid-container-offer">
+  <div class="grid-item-offer">
+    <img class="icons" src="icons/wheat-awn-solid.svg">
+    <p class="card-headline offer">Ingredients</p>
+    <p class="card-subtext">Learn how to read nutrition labels and choose food that works with you, not against you.</p>
+  </div>
+  <div class="grid-item-offer">
+    <img class="icons" src="icons/fire-burner-solid.svg">
+    <p class="card-headline offer">Cooking</p>
+    <p class="card-subtext">Learn how to cook healthy and delicious meals by following simple recipes.</p>
+  </div>
+  <div class="grid-item-offer">
+    <img class="icons" src="icons/weight-scale-solid.svg">
+    <p class="card-headline offer">Lose Weight</p>
+    <p class="card-subtext">Learn how by just eating right you can lose weight, feel better, and have more energy.</p>
+  </div>
+</div>
+<!-- cards -->
+<div class="grid-container-selfcare">
+  <div class="grid-item">
+    <img src="img/Nutrition.jpeg" class="card-image" alt="">
+    <p class="card-headline">35 Day Nutrition Program</p>
+    <hr class="card">
+    <p class="card-subtext padding">$149</p>
+    <a id="embedded-checkout-modal-checkout-button" target="_blank" url="https://square.link/u/Tv2rxbTU" href="https://square.link/u/Tv2rxbTU" rel="noopener"><input type=button class="button btn-one" value='Sign up'></a>
+    <!-- <a href=mindbody.html>Learn more ></a> -->
+  </div>
+</div>
+<!-- footer -->
+<footer-component></footer-component>
+</body>
+</html>
