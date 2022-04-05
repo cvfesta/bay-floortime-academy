@@ -19,6 +19,7 @@
 }
 .grid-container-offer{
   display: flex;
+  margin-top: 2em;
   margin-bottom: 2rem;
   gap: 1rem;
   place-content: center;
