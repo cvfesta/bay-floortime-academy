@@ -24,10 +24,10 @@ class Header extends HTMLElement {
           <!-- Overlay content -->
           <div class="overlay-content">
             <a href="index.html">Home</a>
-            <a href="nutrition.html">Nutrition</a>
             <a href="mindbody.html">Mind Body</a>
+            <a href="selfcare.html">Self-Care</a>
             <a href="contact.html">Contact</a>
-            <hr class="menu">
+            <hr>
             <span class="social menu">
               <a target="_blank" href="https://www.facebook.com/Aloha-Fitness-101473895737487/" rel="noopener"><i class="menu fab fa-facebook-f"></i></a>
               <a target="_blank" href="https://instagram.com/alohafitness2021" rel="noopener"><i class="menu fab fa-instagram"></i></a>
