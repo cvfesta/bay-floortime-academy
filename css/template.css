@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+/* .hero-image {
+  height: 50%;
+  position: initial;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.hero-image {
+    height: 50%;
+    position: initial;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 3%;
+}
+/* Small Responsive */
+@media screen and (max-width: 600px) {
+  .hero {
+    max-width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+  }
+}
+/* Large Responsive */
+@media screen and (min-width: 1080px) {
+  .hero {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    max-width: 45em;
+  }
+}
+h1.hero-text {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fa-calendar-alt, .fa-seedling, .fa-user-friends {
+  color: var(--primary-color);
+  font-size: 2.5em;
+}

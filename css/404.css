@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+.parent {
+  display: flex;
+}
+.container {
+  min-height: 100vh;
+}
+.title {
+  /* auto margin to remove top & bottom margins */
+  margin: auto;
+}
+.child {
+  /* auto margin to vertically center */
+  margin: auto;
+}
