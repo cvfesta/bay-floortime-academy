@@ -91,10 +91,13 @@ h1, h2, h3 {
   line-height: 1.1;
 }
 .doneright{
-  transform: rotate(-16deg);
-  transform-origin: 45% -10.5em !important;
+  /* transform: rotate(-16deg); */
+  /* transform-origin: 45% -10.5em !important; */
+  /* transform-origin: 75% -25em !important; */
   font-family: 'Reenie Beanie', cursive;
   font-size: 2.25em;
   color: var(--primary-color);
   margin: 0;
+  /* width: fit-content; */
+  margin-top: -0.55em;
 }
