@@ -40,3 +40,6 @@ hr.card {
   border: 1px solid #eee;
   border-radius: 5px;
 }
+.card-container {
+  text-align: center !important;
+}

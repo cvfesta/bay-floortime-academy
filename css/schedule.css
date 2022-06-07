@@ -45,7 +45,7 @@
     grid-column-gap: 0.5em;}
   }
   .schedule-subtext {
-    color: var(--secondary-txt-color);
+    color: var(--primary-txt-color);
     /* color: #707070; */
     font-weight: 300;
     margin-left: 20%;

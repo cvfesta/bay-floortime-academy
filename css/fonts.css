@@ -51,20 +51,21 @@ p{
   font-size: 1.25em;
   /* font-weight:600; */
   font-weight: var(--font-weight);
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
   color: var(--primary-txt-color);
+  margin: 0;
 }
 .card-headline.offer, .card-headline.need{
   margin-top: 0.25em;
 }
 .card-subtext {
   font-size: 1em;
-  font-weight:300;
-  color: var(--secondary-txt-color);
+  /* font-weight:300; */
+  /* color: var(--secondary-txt-color); */
   margin-top: 0.5em;
 }
 .card-subtext.padding {
-  padding: 0 1.25em 0 1.25em;
+  /* padding: 0 1.25em 0 1.25em; */
 }
 .hero-headline{
   margin-bottom: 0;
@@ -76,16 +77,17 @@ p{
   letter-spacing: -0.009em;
 }
 .hero-caption {
-  color: var(--secondary-txt-color);
+  /* color: var(--secondary-txt-color); */
   font-size: 1.25em;
   /* font-size: 21px; */
-  font-weight: 400;
+  /* font-weight: 400; */
   /* margin-left: 20%;
   margin-right: 20%; */
+  text-align: left;
 }
 .offer-headline{
   /* margin-bottom: 0.5em; */
-  font-weight: 100;
+  font-weight: 500;
 }
 h1, h2, h3 {
   line-height: 1.1;

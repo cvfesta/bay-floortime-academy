@@ -13,10 +13,11 @@
   border: 0.175em solid #ececec;
   cursor: pointer;
   font-size: 1.25rem;
-  width: 83%;
+  /* width: 83%; */
+  width: 100%;
   top: 75%;
   /* max-width: 375px; */
-  max-width: 19rem;
+  /* max-width: 19rem; */
   /* margin-bottom: 0.7em; */
 }
 .btn-one {
