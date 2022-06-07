@@ -39,16 +39,22 @@
 <header-component></header-component>
 <!-- hero image-->
 <div class="hero-image">
-  <div class="overlay-hero-image">
+  <!-- <div class="overlay-hero-image">
   <h1 class="hero-image-headline gradient">Be healthy, be happy.</h1>
   <a href="#cards"><input type=button class="button btn-one" value='Start your journey'></a>
-  </div>
+  </div> -->
 </div>
+<!-- content container -->
+<div class="content-container">
+
+
 <!-- hero statement-->
 <div class="hero">
-  <h2 class="hero-headline home">Join our amazing community.</h2>
+  <h2 class="hero-headline home">Be healthy, be <span class="highlight">happy</span>.</h2>
   <p class="hero-caption">Aloha Fitness is a virtual fitness community that was created for moms, by a mom, to help you live healthy, lose weight, get fit, and be happy. We have designed a science-based nutrition program, included in Mind Body, to help you create proven healthy eating habits. Each program includes live virtual workouts that provide you with the tools you need to achieve your fitness goals.</p>
+  <!-- <a href="#cards"><input type=button class="button btn-one" value='Start your journey'></a> -->
 </div>
+<!-- <img class="bannerimg" src="img/mindbody-card1.webp" alt=""> -->
 <!-- what we offer grid -->
 <h2 class="offer-headline home">Each program includes:</h2>
 <div class="grid-container-offer">
@@ -68,20 +74,31 @@
     <p class="card-subtext">An amazing and empowering women's fitness community.</p>
   </div>
 </div>
+<!-- quote -->
+
+<blockquote>
+  <q>Thank you for changing my life!</q>
+  <cite>- Lily</cite>
+</blockquote>
+
 <!-- cards -->
 <div id="cards" class="grid-container-card">
   <div class="grid-item">
     <img src="img/nutrition.webp" class="card-image" alt="">
-    <p class="card-headline">Nutrition</p>
-    <p class="card-subtext padding">Sign up to learn how the right foods can make all the difference</p>
-    <a href="nutrition.html"><input type=button class="button btn-one" value='Learn more'></a>
+    <span class="card-container">
+      <p class="card-headline">Nutrition</p>
+      <p class="card-subtext padding">Sign up to learn how the right foods can make all the difference</p>
+      <a href="nutrition.html"><input type=button class="button btn-one" value='Learn More'></a>
+    </span>
     <!-- <a href="selfcare.html">Learn more ></a> -->
   </div>
   <div class="grid-item">
     <img src="img/banner.jpg" class="card-image" alt="">
-    <p class="card-headline">Mind Body</p>
-    <p class="card-subtext padding">Sign up for the nutrition program and live workout classes</p>
-    <a href="mindbody.html"><input type=button class="button btn-one" value='Learn more'></a>
+    <span class="card-container">
+      <p class="card-headline">Home Workouts</p>
+      <p class="card-subtext padding">Sign up for the nutrition program and live workout classes</p>
+      <a href="mindbody.html"><input type=button class="button btn-one" value='Learn More'></a>
+    </span>
     <!-- <a href="mindbody.html">Learn more ></a> -->
   </div>
 </div>
@@ -92,7 +109,7 @@
 <p class="schedule-subtext">Our next session starts on</p>
 <div class="grid-container-startsOnDate">
   <div class="grid-item-startsOnDate">
-    <p class="card-headline startsOnDate">April 18, 2022</p>
+    <p class="card-headline startsOnDate">July 25, 2022</p>
   </div>
 </div>
 <!-- calendar schedule -->
