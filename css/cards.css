@@ -29,7 +29,7 @@
   transform: scale3d(1.01,1.01,1.01);
 } */
 .card-image{
-  max-width: 22em;
+  width: 22em;
   border-radius: 0.5em 0.5em 0 0;
 }
 .grid-container.single {
