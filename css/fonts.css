@@ -64,6 +64,9 @@ p{
   /* color: var(--secondary-txt-color); */
   margin-top: 0.5em;
 }
+.card-subtext.schedule {
+  margin: 0em;
+}
 .card-subtext.padding {
   /* padding: 0 1.25em 0 1.25em; */
 }
