@@ -1,8 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <!-- mixpanel -->
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="author" content="Christian Festa">
+    <title>Aloha Fitness - Live Online Workouts and Nutrition For Women</title>
+    <meta name="description" content="Aloha Fitness is a online community created for moms, by a mom. We offer a science-based nutrition program and high-intensity interval (HIIT) online workouts.">
+    <meta name="keywords" content="science-based nutrition, nutrition program, diet, lose weight, get healthy, group fitness, virtual workout, HIIT, workout, high intensity interval training, moms workout, workout from home">
+<!--    Bootstrap-->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<!--    Fontawesome-->
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" referrerpolicy="no-referrer" rel="stylesheet"/>
+<!--    My Style sheets-->
+    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+<!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="heart.svg" sizes="any"/>
+    <link rel="apple-touch-icon" href="heart.png"/>
+<!-- Mixpanel -->
     <script type="text/javascript">
     (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
     for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
@@ -13,140 +32,291 @@
     mixpanel.init('34b0b2e5a4bf295cff378e99aa7f115f', {debug: false});
     mixpanel.track('Homepage');
     </script>
-    <title>Aloha Fitness - Live Online Workouts For Women</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Aloha Fitness is a virtual community created for moms, by a mom. We offer a science-based nutrition program and high-intensity interval (HIIT) workouts.">
-    <meta name="keywords" content="science-based nutrition, nutrition program, diet, lose weight, get healthy, group fitness, virtual workout, HIIT, workout, high intensity interval training, moms workout, workout from home">
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="css/style.css" type="text/css"/>
-    <link rel="stylesheet" href="css/header.css" type="text/css"/>
-    <link rel="stylesheet" href="css/menu.css" type="text/css"/>
-    <link rel="stylesheet" href="css/home.css" type="text/css"/>
-    <link rel="stylesheet" href="css/template.css" type="text/css"/>
-    <link rel="stylesheet" href="css/schedule.css" type="text/css"/>
-    <link rel="stylesheet" href="css/cards.css" type="text/css"/>
-    <link rel="stylesheet" href="css/btn.css" type="text/css"/>
-    <link rel="stylesheet" href="css/footer.css" type="text/css"/>
-    <link rel="stylesheet" href="css/fonts.css" type="text/css"/>
-    <link rel="icon" type="image/svg+xml" href="heart.svg" sizes="any"/>
-    <link rel="apple-touch-icon" href="heart.png"/>
-    <script src="components/header.js" type="text/javascript" defer></script>
-    <script src="components/footer.js" type="text/javascript" defer></script>
-  </head>
+</head>
+
 <body>
-<!-- Header -->
-<header-component></header-component>
-<!-- hero image-->
-<div class="hero-image">
-  <!-- <div class="overlay-hero-image">
-  <h1 class="hero-image-headline gradient">Be healthy, be happy.</h1>
-  <a href="#cards"><input type=button class="button btn-one" value='Start your journey'></a>
-  </div> -->
-</div>
-<!-- content container -->
-<div class="content-container">
+  <main>
 
+    <!-- Alert -->
+    <div class="alert alert-primary d-flex align-items-center mb-0" role="alert">
+      <div class="container d-flex gap-1">
+        <i class="bi bi-info-circle"></i>
+        <div>The next 5-week session starts September, 19th. Don't miss out, <a href="#pricing" class="alert-link">sign up now!</a></div>
+      </div>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
 
-<!-- hero statement-->
-<div class="hero">
-  <h2 class="hero-headline home">Be healthy, be <span class="highlight">happy</span>.</h2>
-  <p class="hero-caption">Aloha Fitness is a virtual fitness community that was created for moms, by a mom, to help you live healthy, lose weight, get fit, and be happy. We have designed a science-based nutrition program, included in Mind Body, to help you create proven healthy eating habits. Each program includes live virtual workouts that provide you with the tools you need to achieve your fitness goals.</p>
-  <!-- <a href="#cards"><input type=button class="button btn-one" value='Start your journey'></a> -->
-</div>
-<!-- <img class="bannerimg" src="img/mindbody-card1.webp" alt=""> -->
-<!-- what we offer grid -->
-<h2 class="offer-headline home">Each program includes:</h2>
-<div class="grid-container-offer">
-  <div class="grid-item-offer">
-    <i class="fas fa-calendar-alt"></i>
-    <p class="card-headline offer">5 weeks</p>
-    <p class="card-subtext">Virtual fitness training & nutritional guidance for all ages and fitness levels.</p>
-  </div>
-  <div class="grid-item-offer">
-    <i class="fas fa-seedling"></i>
-    <p class="card-headline offer">Nutrition</p>
-    <p class="card-subtext">Receive science-based nutritional guidance and nutrition challenges to keep you engaged and motived throughout the program.</p>
-  </div>
-  <div class="grid-item-offer">
-    <i class="fas fa-user-friends"></i>
-    <p class="card-headline offer">Community</p>
-    <p class="card-subtext">An amazing and empowering women's fitness community.</p>
-  </div>
-</div>
-<!-- quote -->
+    <!-- Nav Container -->
+    <div class="container py-2">
 
-<blockquote>
-  <q>Thank you for changing my life!</q>
-  <cite>- Lily</cite>
-</blockquote>
+    <!--Navbar-->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container mx-auto">
+          <a class="navbar-brand active" aria-current="page" href="#"><i class="bi bi-heart me-1"></i> Aloha Fitness</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#pricing">Pricing</a>
+              <a class="nav-link" href="#schedule">Schedule</a>
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      </header>
+      </div>
 
-<!-- cards -->
-<div id="cards" class="grid-container-card">
-  <div class="grid-item">
-    <img src="img/nutrition.webp" class="card-image" alt="">
-    <span class="card-container">
-      <p class="card-headline">Nutrition</p>
-      <p class="card-subtext padding">Sign up to learn how the right foods can make all the difference</p>
-      <a href="nutrition.html"><input type=button class="button btn-one" value='Learn More'></a>
-    </span>
-    <!-- <a href="selfcare.html">Learn more ></a> -->
-  </div>
-  <div class="grid-item">
-    <img src="img/banner.jpg" class="card-image" alt="">
-    <span class="card-container">
-      <p class="card-headline">Home Workouts</p>
-      <p class="card-subtext padding">Sign up for the nutrition program and live workout classes</p>
-      <a href="mindbody.html"><input type=button class="button btn-one" value='Learn More'></a>
-    </span>
-    <!-- <a href="mindbody.html">Learn more ></a> -->
-  </div>
-</div>
-<!-- Schedule -->
-<i class="fas fa-calendar-alt"></i>
-<h2 class="schedule-headline">Schedule</h2>
-<!-- next session date -->
-<p class="schedule-subtext">Our next session starts on</p>
-<div class="grid-container-startsOnDate">
-  <div class="grid-item-startsOnDate">
-    <p class="card-headline startsOnDate">July 25, 2022</p>
-  </div>
-</div>
-<!-- calendar schedule -->
-<p class="schedule-subtext">To help fit into your busy schedule, the Mind Body program offers morning or evening class schedules.</p>
-<!-- Schedule grid option 1 -->
-<p class="schedule-subtext">Morning Schedule</p>
-<div class="grid-container-schedule">
-  <div class="grid-item-schedule">
-    <p class="card-headline">Tuesday</p>
-    <p class="card-subtext schedule">5:30am</p>
-  </div>
-  <div class="grid-item-schedule">
-    <p class="card-headline">Thursday</p>
-    <p class="card-subtext schedule">5:30am</p>
-  </div>
-  <div class="grid-item-schedule">
-    <p class="card-headline">Saturday</p>
-    <p class="card-subtext schedule">8:30am</p>
-  </div>
-</div>
-<!--  Schedule grid option 2 -->
-<p class="schedule-subtext">Evening Schedule</p>
-<div class="grid-container-schedule">
-  <div class="grid-item-schedule">
-    <p class="card-headline">Monday</p>
-    <p class="card-subtext schedule">6:00pm</p>
-  </div>
-  <div class="grid-item-schedule">
-    <p class="card-headline">Wednesday</p>
-    <p class="card-subtext schedule">6:00pm</p>
-  </div>
-  <div class="grid-item-schedule">
-    <p class="card-headline">Saturday</p>
-    <p class="card-subtext schedule">8:30am</p>
-  </div>
-</div>
-<!-- footer -->
-<footer-component></footer-component>
+      <!-- Hero -->
+      <div class="mainHero">
+        <div class="overlay d-flex align-items-center p-5">
+        <div class="container py-5">
+          <h1 class="display-4 text-white fw-bold">Be healthy, be happy.</h1>
+          <p class="col-md-8 text-white lead">Aloha Fitness is an online fitness community and nutrition program that was created for moms, by a mom. The program helps you live healthy, lose weight, get fit, and be happy!</p>
+          <a class="btn btn-outline-light btn-lg" href="#pricing" type="button">Sign up</a>
+        </div>
+      </div>
+      </div>
+
+      <!-- Page Container -->
+      <div class="container py-4">
+
+      <!-- Features -->
+      <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+          <div class="h-100 p-5">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
+              <i class="bi bi-laptop"></i>
+            </div>
+            <h2>Nutrition</h2>
+            <p>The nutrition program is different than any diet out there. It teaches you how to lose weight and to keep it off by focusing on eating whole, real foods while cutting back on processed foods. The program is designed to help free your body from bad cravings, boost your metabolism, and increase your energy & your mood.</p>
+            <a class="btn btn-outline-secondary" href="#pricing" type="button">Sign up</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="h-100 p-5">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
+              <i class="fas fa-seedling"></i>
+            </div>
+            <h2>Online Workouts</h2>
+            <p>The live classes are HIIT (Hight Intensive Interval Training) composed of restorative cardio, strength training, and core restoration workout designed for moms of all levels. It provides a complete full body workout and gives you the energy and motivation you need to start a healthy lifestyle.</p>
+            <a class="btn btn-outline-secondary" href="#pricing" type="button">Sign up</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pricing -->
+      <div class="pricing-header px-5 pb-md-4 mx-auto text-center" id="pricing">
+            <h3 class="display-6 fw-normal">Pricing</h3>
+            <p class="lead text-muted">Whether, you’re seeking nutritional guidance or live workouts we’ve got you covered with a price that won't break your budget.</p>
+          </div>
+      <!-- Pricing Cards-->
+      <div class="row row-cols-1 row-cols-md-2 mb-3 px-5 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Nutrition</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/week</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>5 week session</li>
+                <li>Science-based nutritional guidance</li>
+                <li>Recipes</li>
+                <li>Weekly Check-In</li>
+              </ul>
+              <a type="button" class="w-100 btn btn-lg btn-primary" target="_blank" url="https://square.link/u/Tv2rxbTU" href="https://square.link/u/Tv2rxbTU" rel="noopener">Get started</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Online Workouts</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$49<small class="text-muted fw-light">/week</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>5 week session</li>
+                <li>Live Classes</li>
+                <li>Hight Intensive Interval Training (HIIT) <i class="bi bi-info-circle" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="High Intensity Interval Training (HIIT) is an aerobic exercise that can be done just about anywhere and at any time."></i></li>
+                <li>Weekly Check-In</li>
+              </ul>
+              <a type="button" class="w-100 btn btn-lg btn-primary" target="_blank" href="https://square.link/u/SU94i8wY?src=embed" rel="noopener">Get started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Compare Table -->
+    <h4 class="text-center mb-4">Compare Programs</h4>
+    <table class="table text-center table-responsive mx-auto">
+      <caption>List of features</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Nutrition</th>
+          <th>Online Workouts</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" class="text-start">5 Week Program</th>
+          <td><i class="bi bi-check2"></i></td>
+          <td><i class="bi bi-check2"></i></td>
+        </tr>
+        <tr>
+          <th scope="row" class="text-start">Science-based Nutrition Guidance</th>
+          <td><i class="bi bi-check2"></i></td>
+          <td><i class="bi bi-check2"></i></td>
+        </tr>
+        <tr>
+          <th scope="row" class="text-start">Recipes</th>
+          <td><i class="bi bi-check2"></i></td>
+          <td><i class="bi bi-check2"></i></td>
+        </tr>
+        <tr>
+          <th scope="row" class="text-start">Accountability</th>
+          <td></td>
+          <td><i class="bi bi-check2"></i></td>
+        </tr>
+        <tr>
+          <th scope="row" class="text-start">Community Support</th>
+          <td></td>
+          <td><i class="bi bi-check2"></i></td>
+        </tr>
+        <tr>
+          <th scope="row" class="text-start">Live Workouts</th>
+          <td></td>
+          <td><i class="bi bi-check2"></i></td>
+        </tr>
+        <tr>
+          <th scope="row" class="text-start">Hight Intensive Interval Training (HIIT)</th>
+          <td></td>
+          <td><i class="bi bi-check2"></i></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Schedule Table -->
+    <div class="pricing-header px-5 pb-md-4 mx-auto text-center" id="schedule">
+      <h5 class="display-6 fw-normal">Schedule</h5>
+      <p class="lead text-muted">To fit your busy schedule, we offer convenient morning and afternoon live workout classes.</p>
+    </div>
+    <table class="table table-responsive mx-auto table-striped">
+    <caption>Live class times are pacific standard time (PST)</caption>
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Morning</th>
+          <th scope="col">Afternoon</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Monday</th>
+          <td>-</td>
+          <td>6:00 pm</td>
+        </tr>
+        <tr>
+          <th scope="row">Tuesday</th>
+          <td>5:30 am</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <th scope="row">Wednesday</th>
+          <td>-</td>
+          <td>6:00 pm</td>
+        </tr>
+        <tr>
+          <th scope="row">Thursday</th>
+          <td>5:30 am</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <th scope="row">Friday</th>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <th scope="row">Saturday</th>
+          <td>8:30 am</td>
+          <td>8:30 am</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Contact Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title me-2" id="contactModalLabel">Contact us</h5><i class="bi bi-envelope-paper-heart"></i>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form name="contact" class="contact" method="POST" data-netlify="true">
+                      <div class="form-floating mb-3">
+                        <input type="text" class="form-control" required="required" spellcheck="true" id="floatingInput" placeholder="First Name">
+                        <label for="floatingInput">First Name</label>
+                      </div>
+
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control" required="required" spellcheck="true" id="floatingInput" placeholder="Last Name">
+                        <label for="floatingInput">Last Name</label>
+                      </div>
+
+                      <div class="form-floating mb-4">
+                        <input type="email" class="form-control" required="required" spellcheck="true" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+
+                      <div class="form-floating">
+                        <textarea class="form-control contactTextarea" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">How can we help you?</label>
+                      </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary" type="submit">Send</button>
+                </div>
+                    </form>
+            </div>
+        </div>
+    </div>
+
+      <!-- Footer -->
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 text-muted border-top">
+          <p class="col-md-4 mb-0 text-muted">© <span class="date" id="date"></span> Aloha Fitness</p>
+          <i class="bi bi-balloon-heart text-muted col-md-4 d-flex align-items-center justify-content-center mb-md-0 me-md-auto"></i>
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#pricing" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#schedule" class="nav-link px-2 text-muted">Schedule</a></li>
+            <li class="nav-item"><a class="nav-link px-2 text-muted" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a></li>
+          </ul>
+        </footer>
+      </div>
+
+    <!-- End Page Container -->
+    </div>
+  </main>
+
+  <!-- Initialize Tooltip -->
+  <script type="text/javascript">
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+
+  <!-- Copyright Date -->
+  <script>
+    const d = new Date();
+    let year = d.getFullYear();
+    document.getElementById("date").innerHTML = year;
+  </script>
+
 </body>
 </html>

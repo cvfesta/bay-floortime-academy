@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
+.mainHero{
+  background-image: url("../img/indexHero.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  /* min-height: 50vh; */
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.mainHero, .overlay {
+  min-height: 50vh;
+}
+
+
+.pricing-header, .table-responsive  {
+  max-width: 700px;
+}
+.feature-icon {
+  background-color: skyblue !important;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.btn-primary {
+    --bs-btn-color: #000;
+    --bs-btn-bg: skyblue;
+    --bs-btn-border-color: skyblue;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #58bce6;
+    --bs-btn-hover-border-color: #58bce6;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #58bce6;
+    --bs-btn-active-border-color: #58bce6;
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: skyblue;
+    --bs-btn-disabled-border-color: skyblue;
+  }
+.contactTextarea{
+  min-height: 6em !important;
+}
