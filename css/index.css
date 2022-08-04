@@ -51,3 +51,6 @@
 .contactTextarea{
   min-height: 6em !important;
 }
+.pointer {
+  cursor: pointer;
+}
