@@ -34,7 +34,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.btn-primary {
+/* .btn-primary {
     --bs-btn-color: #000;
     --bs-btn-bg: skyblue;
     --bs-btn-border-color: skyblue;
@@ -47,7 +47,12 @@
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: skyblue;
     --bs-btn-disabled-border-color: skyblue;
-  }
+  } */
+.cardList{
+      min-height: 8rem;
+      max-width: 26rem;
+      min-width: 20rem
+}
 .contactTextarea{
   min-height: 6em !important;
 }
